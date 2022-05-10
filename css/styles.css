@@ -686,12 +686,6 @@ body {
     visibility 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-  visibility: hidden;
-}
-
 .modal {
   position: absolute;
   width: 528px;
@@ -707,6 +701,12 @@ body {
   border-radius: 4px;
   display: flex;
   justify-content: end;
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
 }
 
 .backdrop.is-hidden .modal {
